@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Administration - Gestion des Articles de Blog</title>
+    <!-- Intégrez ici vos styles CSS -->
+</head>
+<body>
+    <h1>Administration - Gestion des Articles de Blog</h1>
+
+    <div>
+        <h2>Ajouter un nouvel article</h2>
+        <form action="process-update.php" method="POST">
+            <label for="title">Titre de l'article</label>
+            <input type="text" id="title" name="title" required><br><br>
+            
+            <label for="content">Contenu de l'article</label><br>
+            <textarea id="content" name="content" rows="6" required></textarea><br><br>
+            
+            <button type="submit">Ajouter l'article</button>
+        </form>
+    </div>
+
+    <!-- Intégrez ici vos scripts JavaScript -->
+</body>
+</html>
